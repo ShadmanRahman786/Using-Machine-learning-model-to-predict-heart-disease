@@ -4,7 +4,7 @@
 
 ---
 
-## 💓 Heart-Pumping Simulation
+## 💓Let's bit the heart more
 ![Beating Heart](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 
 ---
