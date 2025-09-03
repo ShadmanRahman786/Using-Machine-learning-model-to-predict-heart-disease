@@ -27,22 +27,10 @@ Heart disease is one of the leading causes of death worldwide. Early detection i
 
 ##Results
 
-import matplotlib.pyplot as plt
-
-# Model names and accuracies
-models = ['Logistic Regression', 'SVM', 'KNN', 'Decision Tree']
-accuracy = [86.34, 83.9, 72.2, 100.0]
-
-# Plotting bar chart
-plt.figure(figsize=(8,5))
-plt.bar(models, accuracy, color=['skyblue', 'orange', 'green', 'red'])
-plt.title('Model Accuracy Comparison')
-plt.xlabel('Models')
-plt.ylabel('Accuracy (%)')
-plt.ylim(0, 110)
-for i, v in enumerate(accuracy):
-    plt.text(i, v + 2, str(v), ha='center', fontweight='bold')
-plt.show()
+Logistic Regression-86.34
+Support Vector Machine-83.9
+K-Nearest Neighbors-72.2
+Decision Tree-100.0
 
 
 
@@ -56,7 +44,7 @@ pip install pandas matplotlib seaborn scikit-learn jupyter
 jupyter notebook Heart_Disease_Prediction_Model.ipynb
 ```
 
-##Author
+## Author
 
 Shadman Rahman Sameen
 	•	Email: shadman.rahman.sameen@g.bracu.ac.bd
