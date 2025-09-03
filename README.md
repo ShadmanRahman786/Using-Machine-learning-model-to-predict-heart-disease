@@ -8,19 +8,7 @@
 
 Watch the heart “beat” while exploring the project:
 
-<div style="font-size:50px; text-align:center;">
-  <span style="color:red; display:inline-block; animation: beat 1s infinite;">❤️</span>
-</div>
-
-<style>
-@keyframes beat {
-  0% { transform: scale(1); }
-  25% { transform: scale(1.2); }
-  50% { transform: scale(1); }
-  75% { transform: scale(1.2); }
-  100% { transform: scale(1); }
-}
-</style>
+![Beating Heart](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 
 ---
 
@@ -40,30 +28,8 @@ Heart disease is one of the leading causes of death worldwide. Early detection i
 
 ---
 
-## Installation & Usage
+##Results
 
-
-git clone https://github.com/ShadmanRahman786/Using-Machine-learning-model-to-predict-heart-disease.git
-cd Using-Machine-learning-model-to-predict-heart-disease
-pip install pandas matplotlib seaborn scikit-learn jupyter
-jupyter notebook Heart_Disease_Prediction_Model.ipynb
-
----
-
-## Results
-
-The model performance on predicting heart disease:
-
-| Model                   | Accuracy (%) |
-|-------------------------|-------------|
-| Logistic Regression     | 86.34       |
-| Support Vector Machine  | 83.9        |
-| K-Nearest Neighbors     | 72.2        |
-| Decision Tree           | 100.0       |
-
-### Model Performance Bar Chart
-
-python
 import matplotlib.pyplot as plt
 
 # Model names and accuracies
@@ -81,13 +47,20 @@ for i, v in enumerate(accuracy):
     plt.text(i, v + 2, str(v), ha='center', fontweight='bold')
 plt.show()
 
-# Author
+## Installation & Usage
+
+
+```bash
+git clone https://github.com/ShadmanRahman786/Using-Machine-learning-model-to-predict-heart-disease.git
+cd Using-Machine-learning-model-to-predict-heart-disease
+pip install pandas matplotlib seaborn scikit-learn jupyter
+jupyter notebook Heart_Disease_Prediction_Model.ipynb
+```
+
+##Author
+
 Shadman Rahman Sameen
 	•	Email: shadman.rahman.sameen@g.bracu.ac.bd
 	•	GitHub: ShadmanRahman786
 	•	Location: Dhaka, Bangladesh
 	•	Passionate about Machine Learning, Data Science, and AI
-
-
-
-
