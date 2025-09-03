@@ -5,9 +5,6 @@
 ---
 
 ## 💓 Heart-Pumping Simulation
-
-Watch the heart “beat” while exploring the project:
-
 ![Beating Heart](https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif)
 
 ---
