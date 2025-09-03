@@ -44,6 +44,8 @@ for i, v in enumerate(accuracy):
     plt.text(i, v + 2, str(v), ha='center', fontweight='bold')
 plt.show()
 
+
+
 ## Installation & Usage
 
 
