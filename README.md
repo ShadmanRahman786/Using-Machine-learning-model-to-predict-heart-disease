@@ -52,6 +52,3 @@ Shadman Rahman Sameen
 
 	•	GitHub: ShadmanRahman786
 
-	•	Location: Dhaka, Bangladesh
-
-	•	Passionate about Machine Learning, Data Science, and AI
