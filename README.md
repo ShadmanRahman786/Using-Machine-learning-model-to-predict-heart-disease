@@ -25,7 +25,7 @@ Heart disease is one of the leading causes of death worldwide. Early detection i
 
 ---
 
-##Results
+## Results
 
 Logistic Regression-86.34
 Support Vector Machine-83.9
@@ -47,7 +47,11 @@ jupyter notebook Heart_Disease_Prediction_Model.ipynb
 ## Author
 
 Shadman Rahman Sameen
+
 	•	Email: shadman.rahman.sameen@g.bracu.ac.bd
+
 	•	GitHub: ShadmanRahman786
+
 	•	Location: Dhaka, Bangladesh
+
 	•	Passionate about Machine Learning, Data Science, and AI
